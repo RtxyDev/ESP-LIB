@@ -30,7 +30,7 @@ local ServiceConnections = {}
 
 getgenv().WallHack = {
 	Settings = {
-		Enabled = false,
+		Enabled = true,
 		TeamCheck = false,
 		AliveCheck = true
 	},
@@ -60,7 +60,7 @@ getgenv().WallHack = {
 		},
 
 		TracersSettings = {
-			Enabled = true,
+			Enabled = false,
 			Type = 1, -- 1 - Bottom; 2 - Center; 3 - Mouse
 			Transparency = 0.7,
 			Thickness = 1,
@@ -68,7 +68,7 @@ getgenv().WallHack = {
 		},
 
 		BoxSettings = {
-			Enabled = true,
+			Enabled = false,
 			Type = 1; -- 1 - 3D; 2 - 2D
 			Color = Color3fromRGB(255, 255, 255),
 			Transparency = 0.7,
@@ -78,7 +78,7 @@ getgenv().WallHack = {
 		},
 
 		HeadDotSettings = {
-			Enabled = true,
+			Enabled = false,
 			Color = Color3fromRGB(255, 255, 255),
 			Transparency = 0.5,
 			Thickness = 1,
