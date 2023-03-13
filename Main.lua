@@ -13,7 +13,6 @@ local WorldToViewportPoint, Vector2new, Vector3new, Vector3zero, CFramenew, Draw
 
 --// Launching checks
 
-if not getgenv().AirHub or getgenv().AirHub.WallHack then return end
 
 --// Services
 
@@ -29,7 +28,7 @@ local ServiceConnections = {}
 
 --// Environment
 
-getgenv().AirHub.WallHack = {
+getgenv().WallHack = {
 	Settings = {
 		Enabled = false,
 		TeamCheck = false,
@@ -128,7 +127,7 @@ getgenv().AirHub.WallHack = {
 	WrappedPlayers = {}
 }
 
-local Environment = getgenv().AirHub.WallHack
+local Environment = getgenv().WallHack
 
 --// Core Functions
 
